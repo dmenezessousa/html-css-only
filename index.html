@@ -24,62 +24,71 @@
                 </ul> 
                 <a href="index.html"><img class="search-logo" src="images/search.svg" alt="search"></a>    
             </nav>            
-    </header>
-    <!-- End of header -->
-
-    <!-- Start of main -->
-    <main>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Mom & POP</h1>
-                <p>Coffee Shop</p>
-                <img class="hero-img1" src="images/Coffee-and-Pastries.png" alt="">
-                <img class="hero-img2" src="images/Cake-Vitrine.png" alt="">
-            </div>
-        </section>
-        <section class="about">
-            <div class="about-text">
-                <p>The Café offers an assortment of delicious and delectable pastries and coffees that will put a smile on your face. From cookies to croissants, tarts and cakes, each treat is specially prepared to excite your tastebuds and brighten your day!</p>
-            </div>
-        </section>
-        <section class="menu">
-            <div class="menu-text">
-                <h2>Menu</h2>
-            </div>
-            <div class="menu-list">
-                <ul>
-                    <li>~Cookies~
-                        <p>- Chocolate Chip</p>
-                        <p>- Oatmeal</p>
-                        <p>- Chocolate</p>
-                    </li>
-                    <li >
-                        ~Coffees & Hot Choc~
-                        <p>- Espresso</p>
-                        <p>- Cappuccino</p>
-                        <p>- Latte</p>
-                    </li>
-                    <li>~Tarts & Cakes~
-                        <p>- Blueberry-Tarts</p>
-                        <p>- Strawberry-Cakes</p>
-                        <p>- Vegan Cake</p>
-                    </li>
-                </ul>               
-            </div>
-            <div class="menu-img">
-                <ul>
-                    <li><img src="images/Cookies.png" alt=""></li>
-                    <li><img src="images/Cup-of-Hot-Chocolate.png" alt=""></li>
-                    <li><img src="images/Strawberry-&-Blueberry-Tarts.png" alt=""></li>
-                </ul>               
-            </div>
-    </main>
-    <!-- End of main -->
-
-    <!-- Start of footer -->
-    <footer>
-        <p>©Diego Sousa</p>
-    </footer>
-    <!-- End of footer -->
-</body>
-</html>
+        </header>
+        <!-- End of header -->
+        
+        <!-- Start of main -->
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Mom & POP</h1>
+                    <p>Coffee Shop</p>
+                    <span class="prompt">
+                        <script>
+                            const user = prompt("What is your name?");
+                            document.write("Hello, and Wecolme " + user + "!");
+                        </script>
+                    </span>
+                    <a href=""><img class="hero-img1" src="images/Coffee-and-Pastries.png" alt=""></a>
+                    <a href=""><img class="hero-img2" src="images/Cake-Vitrine.png" alt=""></a>   
+                </div>
+            </section>
+            <section class="about">
+                <div class="about-text">
+                    <p>The Café offers an assortment of delicious and delectable pastries and coffees that will put a smile on your face. From cookies to croissants, tarts and cakes, each treat is specially prepared to excite your tastebuds and brighten your day!</p>
+                </div>
+            </section>
+            <section class="menu">
+                <div class="menu-text">
+                    <h2>Menu</h2>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <li>~Cookies~
+                            <p>- Chocolate Chip</p>
+                            <p>- Oatmeal</p>
+                            <p>- Chocolate</p>
+                        </li>
+                        <li >
+                            ~Coffees & Hot Choc~
+                            <p>- Espresso</p>
+                            <p>- Cappuccino</p>
+                            <p>- Latte</p>
+                        </li>
+                        <li>~Tarts & Cakes~
+                            <p>- Blueberry-Tarts</p>
+                            <p>- Strawberry-Cakes</p>
+                            <p>- Vegan Cake</p>
+                        </li>
+                    </ul>               
+                </div>
+                <div class="menu-img">
+                    <ul>
+                        <li><a href=""><img src="images/Cookies.png" alt="Cookies"></a></li>
+                        <li><a href=""><img src="images/Cup-of-Hot-Chocolate.png" alt="Hot Chocolate"></a></li>
+                        <li><a href=""><img src="images/Strawberry-&-Blueberry-Tarts.png" alt="tarts"></a></li>
+                    </ul>               
+                </div>
+            </main>
+            <!-- End of main -->
+            
+            <!-- Start of footer -->
+            <footer>
+                <p>©Diego Sousa</p>
+                <button id="btn-toggle">Click Me</button>
+                <button id="btn-toggle2">Or Me</button>
+            </footer>
+            <!-- End of footer -->
+            <script src="script.js"></script>
+        </body>
+        </html>
